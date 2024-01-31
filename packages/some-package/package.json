@@ -1,0 +1,19 @@
+{
+  "name": "@gegenschall/some-package",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "sideEffects": false,
+  "license": "MIT",
+  "scripts": {},
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com",
+    "repository": {
+      "type": "git",
+      "url": "ssh://git@github.com/gegenschall/turbo-bug-repro.git",
+      "directory": "packages/some-package"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
